@@ -1,0 +1,1910 @@
+{
+  "lockfileVersion": 2,
+  "configVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "tdk-erp-system",
+      "devDependencies": {
+        "@tdk-landscape/tdk-cli-core": "1.3.186",
+      },
+    },
+    "services/analytics/analytics-portal-api": {
+      "name": "analytics-portal-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/analytics/bi-dashboard-app": {
+      "name": "bi-dashboard-app",
+      "version": "1.0.0",
+      "dependencies": {
+        "hono": "^4.0.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/react": "^18.2.0",
+        "@types/react-dom": "^18.2.0",
+        "@vitejs/plugin-react": "^4.2.0",
+        "typescript": "^5.0.0",
+        "vite": "^5.0.0",
+      },
+    },
+    "services/analytics/business-intelligence-api": {
+      "name": "business-intelligence-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/analytics/dashboard-api": {
+      "name": "dashboard-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/analytics/data-governance-api": {
+      "name": "data-governance-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/analytics/data-warehouse-api": {
+      "name": "data-warehouse-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/analytics/machine-learning-api": {
+      "name": "machine-learning-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/analytics/predictive-analytics-api": {
+      "name": "predictive-analytics-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/analytics/reporting-api": {
+      "name": "reporting-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/finance/accounts-payable-api": {
+      "name": "accounts-payable-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/finance/accounts-receivable-api": {
+      "name": "accounts-receivable-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/finance/asset-management-api": {
+      "name": "asset-management-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/finance/audit-trail-api": {
+      "name": "audit-trail-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/finance/banking-integration-api": {
+      "name": "banking-integration-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/finance/budgeting-api": {
+      "name": "budgeting-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/finance/cash-management-api": {
+      "name": "cash-management-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/finance/cost-accounting-api": {
+      "name": "cost-accounting-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/finance/expense-management-api": {
+      "name": "expense-management-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/finance/finance-dashboard-app": {
+      "name": "finance-dashboard-app",
+      "version": "1.0.0",
+      "dependencies": {
+        "hono": "^4.0.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/react": "^18.2.0",
+        "@types/react-dom": "^18.2.0",
+        "@vitejs/plugin-react": "^4.2.0",
+        "typescript": "^5.0.0",
+        "vite": "^5.0.0",
+      },
+    },
+    "services/finance/financial-analytics-api": {
+      "name": "financial-analytics-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/finance/financial-reporting-api": {
+      "name": "financial-reporting-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/finance/general-ledger-api": {
+      "name": "general-ledger-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/finance/payroll-processing-api": {
+      "name": "payroll-processing-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/finance/revenue-recognition-api": {
+      "name": "revenue-recognition-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/finance/tax-compliance-api": {
+      "name": "tax-compliance-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/hr/benefits-administration-api": {
+      "name": "benefits-administration-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/hr/compensation-api": {
+      "name": "compensation-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/hr/compliance-api": {
+      "name": "compliance-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/hr/employee-portal-api": {
+      "name": "employee-portal-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/hr/employee-records-api": {
+      "name": "employee-records-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/hr/hr-analytics-api": {
+      "name": "hr-analytics-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/hr/hr-portal-app": {
+      "name": "hr-portal-app",
+      "version": "1.0.0",
+      "dependencies": {
+        "hono": "^4.0.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/react": "^18.2.0",
+        "@types/react-dom": "^18.2.0",
+        "@vitejs/plugin-react": "^4.2.0",
+        "typescript": "^5.0.0",
+        "vite": "^5.0.0",
+      },
+    },
+    "services/hr/onboarding-api": {
+      "name": "onboarding-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/hr/performance-management-api": {
+      "name": "performance-management-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/hr/recruitment-api": {
+      "name": "recruitment-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/hr/time-tracking-api": {
+      "name": "time-tracking-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/hr/training-api": {
+      "name": "training-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/hr/workforce-planning-api": {
+      "name": "workforce-planning-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/inventory/batch-tracking-api": {
+      "name": "batch-tracking-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/inventory/cycle-counting-api": {
+      "name": "cycle-counting-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/inventory/expiry-management-api": {
+      "name": "expiry-management-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/inventory/inventory-audit-api": {
+      "name": "inventory-audit-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/inventory/inventory-forecasting-api": {
+      "name": "inventory-forecasting-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/inventory/inventory-management-api": {
+      "name": "inventory-management-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/inventory/inventory-management-app": {
+      "name": "inventory-management-app",
+      "version": "1.0.0",
+      "dependencies": {
+        "hono": "^4.0.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/react": "^18.2.0",
+        "@types/react-dom": "^18.2.0",
+        "@vitejs/plugin-react": "^4.2.0",
+        "typescript": "^5.0.0",
+        "vite": "^5.0.0",
+      },
+    },
+    "services/inventory/inventory-optimization-api": {
+      "name": "inventory-optimization-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/inventory/inventory-replenishment-api": {
+      "name": "inventory-replenishment-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/inventory/inventory-reporting-api": {
+      "name": "inventory-reporting-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/inventory/inventory-reservation-api": {
+      "name": "inventory-reservation-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/inventory/inventory-valuation-api": {
+      "name": "inventory-valuation-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/inventory/multi-location-api": {
+      "name": "multi-location-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/inventory/product-catalog-api": {
+      "name": "product-catalog-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/inventory/sku-management-api": {
+      "name": "sku-management-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/inventory/stock-adjustment-api": {
+      "name": "stock-adjustment-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/inventory/stock-control-api": {
+      "name": "stock-control-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/inventory/stock-movement-api": {
+      "name": "stock-movement-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/inventory/warehouse-management-api": {
+      "name": "warehouse-management-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/manufacturing/bom-management-api": {
+      "name": "bom-management-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/manufacturing/capacity-planning-api": {
+      "name": "capacity-planning-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/manufacturing/equipment-management-api": {
+      "name": "equipment-management-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/manufacturing/lean-manufacturing-api": {
+      "name": "lean-manufacturing-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/manufacturing/maintenance-api": {
+      "name": "maintenance-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/manufacturing/manufacturing-analytics-api": {
+      "name": "manufacturing-analytics-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/manufacturing/packaging-api": {
+      "name": "packaging-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/manufacturing/production-control-app": {
+      "name": "production-control-app",
+      "version": "1.0.0",
+      "dependencies": {
+        "hono": "^4.0.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/react": "^18.2.0",
+        "@types/react-dom": "^18.2.0",
+        "@vitejs/plugin-react": "^4.2.0",
+        "typescript": "^5.0.0",
+        "vite": "^5.0.0",
+      },
+    },
+    "services/manufacturing/production-costing-api": {
+      "name": "production-costing-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/manufacturing/production-planning-api": {
+      "name": "production-planning-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/manufacturing/production-scheduling-api": {
+      "name": "production-scheduling-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/manufacturing/production-tracking-api": {
+      "name": "production-tracking-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/manufacturing/quality-control-api": {
+      "name": "quality-control-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/manufacturing/recipe-management-api": {
+      "name": "recipe-management-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/manufacturing/shop-floor-control-api": {
+      "name": "shop-floor-control-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/manufacturing/work-order-api": {
+      "name": "work-order-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/sales/commission-api": {
+      "name": "commission-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/sales/contract-management-api": {
+      "name": "contract-management-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/sales/crm-api": {
+      "name": "crm-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/sales/customer-portal-api": {
+      "name": "customer-portal-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/sales/deal-management-api": {
+      "name": "deal-management-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/sales/invoice-generation-api": {
+      "name": "invoice-generation-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/sales/lead-management-api": {
+      "name": "lead-management-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/sales/opportunity-api": {
+      "name": "opportunity-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/sales/order-management-api": {
+      "name": "order-management-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/sales/payment-processing-api": {
+      "name": "payment-processing-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/sales/pricing-api": {
+      "name": "pricing-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/sales/quote-to-cash-api": {
+      "name": "quote-to-cash-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/sales/quoting-api": {
+      "name": "quoting-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/sales/sales-analytics-api": {
+      "name": "sales-analytics-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/sales/sales-automation-api": {
+      "name": "sales-automation-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/sales/sales-crm-app": {
+      "name": "sales-crm-app",
+      "version": "1.0.0",
+      "dependencies": {
+        "hono": "^4.0.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/react": "^18.2.0",
+        "@types/react-dom": "^18.2.0",
+        "@vitejs/plugin-react": "^4.2.0",
+        "typescript": "^5.0.0",
+        "vite": "^5.0.0",
+      },
+    },
+    "services/sales/sales-forecasting-api": {
+      "name": "sales-forecasting-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/sales/sales-performance-api": {
+      "name": "sales-performance-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/sales/sales-portal-api": {
+      "name": "sales-portal-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/sales/sales-reporting-api": {
+      "name": "sales-reporting-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/sales/territory-management-api": {
+      "name": "territory-management-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/supply_chain/demand-planning-api": {
+      "name": "demand-planning-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/supply_chain/logistics-api": {
+      "name": "logistics-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/supply_chain/procurement-api": {
+      "name": "procurement-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/supply_chain/purchase-order-api": {
+      "name": "purchase-order-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/supply_chain/receiving-api": {
+      "name": "receiving-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/supply_chain/shipping-api": {
+      "name": "shipping-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/supply_chain/supplier-management-api": {
+      "name": "supplier-management-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/supply_chain/supplier-performance-api": {
+      "name": "supplier-performance-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/supply_chain/supply-chain-analytics-api": {
+      "name": "supply-chain-analytics-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/supply_chain/supply-chain-app": {
+      "name": "supply-chain-app",
+      "version": "1.0.0",
+      "dependencies": {
+        "hono": "^4.0.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/react": "^18.2.0",
+        "@types/react-dom": "^18.2.0",
+        "@vitejs/plugin-react": "^4.2.0",
+        "typescript": "^5.0.0",
+        "vite": "^5.0.0",
+      },
+    },
+    "services/supply_chain/supply-chain-planning-api": {
+      "name": "supply-chain-planning-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/supply_chain/supply-chain-risk-api": {
+      "name": "supply-chain-risk-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+    "services/supply_chain/vendor-portal-api": {
+      "name": "vendor-portal-api",
+      "version": "1.0.0",
+      "dependencies": {
+        "@hono/node-server": "^1.8.0",
+        "hono": "^4.0.0",
+      },
+      "devDependencies": {
+        "@types/bun": "^1.4.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+      },
+    },
+  },
+  "packages": {
+    "@babel/code-frame": ["@babel/code-frame@7.29.7", "", { "dependencies": { "@babel/helper-validator-identifier": "^7.29.7", "js-tokens": "^4.0.0", "picocolors": "^1.1.1" } }, "sha512-Aup7aUOfpbAUg2ROOJN6Iw5f9DMBlzu0mIkm/malLQFN/YQgO48wCj0Kxa3sEHJvPVFg7siR+qRInwXd2qhQKw=="],
+
+    "@babel/compat-data": ["@babel/compat-data@7.29.7", "", {}, "sha512-locTkQyKvwIEgBzVrn8693ebc97F2U8ZHjbXwDXJ5Fn2TCpNwTlKcaKLkdHop5c/icOFE7qt7Q9JC5hnKNa6Gg=="],
+
+    "@babel/core": ["@babel/core@7.29.7", "", { "dependencies": { "@babel/code-frame": "^7.29.7", "@babel/generator": "^7.29.7", "@babel/helper-compilation-targets": "^7.29.7", "@babel/helper-module-transforms": "^7.29.7", "@babel/helpers": "^7.29.7", "@babel/parser": "^7.29.7", "@babel/template": "^7.29.7", "@babel/traverse": "^7.29.7", "@babel/types": "^7.29.7", "@jridgewell/remapping": "^2.3.5", "convert-source-map": "^2.0.0", "debug": "^4.1.0", "gensync": "^1.0.0-beta.2", "json5": "^2.2.3", "semver": "^6.3.1" } }, "sha512-RgHBCvtjbOK2gXSNBNIkNoEc9qoVEtau3hj8gEqKQuL3HZAibKarWFEI3Lfm6EYKkLalOh8eSrj9b+ch9H/VBA=="],
+
+    "@babel/generator": ["@babel/generator@7.29.8", "", { "dependencies": { "@babel/parser": "^7.29.8", "@babel/types": "^7.29.8", "@jridgewell/gen-mapping": "^0.3.12", "@jridgewell/trace-mapping": "^0.3.28", "jsesc": "^3.0.2" } }, "sha512-gZbepsdh3WDtgZKWL+vTPh71LSBrm/Y4/QDZBVCcYfmeTEEuoOYwlSy+G1StfJg+/Zy550u/3TATbm7qDbbMtg=="],
+
+    "@babel/helper-compilation-targets": ["@babel/helper-compilation-targets@7.29.7", "", { "dependencies": { "@babel/compat-data": "^7.29.7", "@babel/helper-validator-option": "^7.29.7", "browserslist": "^4.24.0", "lru-cache": "^5.1.1", "semver": "^6.3.1" } }, "sha512-wem6WaBj4NaVYVdNhLPPVacES6ZJ+KBBfSkTMD3YZxbP3rm3Di85tJU5ljaUNhaOynt+Aj0xruhYuzQBt8n71g=="],
+
+    "@babel/helper-globals": ["@babel/helper-globals@7.29.7", "", {}, "sha512-3nQVUAtvkKH9zahfWgw96Jc/uFOmjACE1kQz82E2lqWmHBgjzbNlsC22nuQTfahmWeQtTq5nQ/4Nnd2A1wj4zA=="],
+
+    "@babel/helper-module-imports": ["@babel/helper-module-imports@7.29.7", "", { "dependencies": { "@babel/traverse": "^7.29.7", "@babel/types": "^7.29.7" } }, "sha512-ejHwrQQYcm9xnTivShn2IDOlIzInN34AXskvq9QicvCtEzq1Vzclu/tKF8Jq1Cg8JG2GL6/EmjgsCT7lXepE3g=="],
+
+    "@babel/helper-module-transforms": ["@babel/helper-module-transforms@7.29.7", "", { "dependencies": { "@babel/helper-module-imports": "^7.29.7", "@babel/helper-validator-identifier": "^7.29.7", "@babel/traverse": "^7.29.7" }, "peerDependencies": { "@babel/core": "^7.0.0" } }, "sha512-UPUVSyXbOh627KiCIGQSgwWzGeBKLkaJ9PJEdrngIwMSzxLR4jS4+f1f1jb7VzBbg8nFLaYotvVPFCTqdrmTAg=="],
+
+    "@babel/helper-plugin-utils": ["@babel/helper-plugin-utils@7.29.7", "", {}, "sha512-G7sHYigPY17oO5SYWnfD/0MTBwVR781S/JI643e/JhUYgVgWE/61SoW3NH9KWUKyKq5LVh3npif99Wkt6j86Jw=="],
+
+    "@babel/helper-string-parser": ["@babel/helper-string-parser@7.29.7", "", {}, "sha512-Pb5ijPrZ89GDH8223L4UP8i6QApWxs04RbPQJTeWDV0/keR2E36MeKnyr6LYmUUvqRRI+Iv87SuF1W6ErINzYw=="],
+
+    "@babel/helper-validator-identifier": ["@babel/helper-validator-identifier@7.29.7", "", {}, "sha512-qehxGkRj55h/ff8EMaJ+cYhyaKlHIxqYDn682wQD7RNp9UujOQsHog2uS0r2vzr4pW+sXf90NeeayjcNaX3fFg=="],
+
+    "@babel/helper-validator-option": ["@babel/helper-validator-option@7.29.7", "", {}, "sha512-N9ZErrD+yW5geCDtBqnOoxmR8+tNKiGuxKlDpuJxfsqpa2dFcexaziGAE/qoHLiDDreVNMupxGmSoNlyvsA3gw=="],
+
+    "@babel/helpers": ["@babel/helpers@7.29.10", "", { "dependencies": { "@babel/template": "^7.29.7", "@babel/types": "^7.29.8" } }, "sha512-EMCx3AGZ3WfAl6ht7AyQoPm2Lh+BGYEMdc4Q6Hf7uSCDOZFuLq44qNwL+iaim8VlyYhRAo4X43+weadK8ZB4Yg=="],
+
+    "@babel/parser": ["@babel/parser@7.29.9", "", { "dependencies": { "@babel/types": "^7.29.8" }, "bin": "./bin/babel-parser.js" }, "sha512-CjXrNHTnvqBVqHgdBysY3vk2T8tpJHb5/RMeHJBTyVa9xgugCB0CJTx/3oO8RV2QRQP391RWpB7D6hLjm8V9uA=="],
+
+    "@babel/plugin-transform-react-jsx-self": ["@babel/plugin-transform-react-jsx-self@7.29.7", "", { "dependencies": { "@babel/helper-plugin-utils": "^7.29.7" }, "peerDependencies": { "@babel/core": "^7.0.0-0" } }, "sha512-TL0hMc9xzy86VD31nUiwzd5otRAcyEPcsegCxolO0PvcXuH1v0kECe/UIznYFihpkvU5wg/jk4v0TTEFfm53fw=="],
+
+    "@babel/plugin-transform-react-jsx-source": ["@babel/plugin-transform-react-jsx-source@7.29.7", "", { "dependencies": { "@babel/helper-plugin-utils": "^7.29.7" }, "peerDependencies": { "@babel/core": "^7.0.0-0" } }, "sha512-06IyK09H3wi4cGbhDBwp5gUGo0IKtnYa8tyTiephirPCK6fbobVGiXMMI5zLQ4aKEYP3wZ3ArU44o+8KMrSG/Q=="],
+
+    "@babel/template": ["@babel/template@7.29.7", "", { "dependencies": { "@babel/code-frame": "^7.29.7", "@babel/parser": "^7.29.7", "@babel/types": "^7.29.7" } }, "sha512-puq+Gf35oI24FeN11LkoUQFqv9uwNeWpxXZi/Ji3rRIoKAzKnxRaZ+Gkj0vKS9ZCiTESfng1N9LyOyXvo+m+Gg=="],
+
+    "@babel/traverse": ["@babel/traverse@7.29.10", "", { "dependencies": { "@babel/code-frame": "^7.29.7", "@babel/generator": "^7.29.8", "@babel/helper-globals": "^7.29.7", "@babel/parser": "^7.29.9", "@babel/template": "^7.29.7", "@babel/types": "^7.29.8", "debug": "^4.3.1" } }, "sha512-B3lYAs2nkKskbgQ1nfy8Ma9ao9Q1rntTAQHrzzyDuj+TSO+X3le6PfWwqDvodsb+OumE10eMFfuMCTQSQ5iuIQ=="],
+
+    "@babel/types": ["@babel/types@7.29.8", "", { "dependencies": { "@babel/helper-string-parser": "^7.29.7", "@babel/helper-validator-identifier": "^7.29.7" } }, "sha512-Vj1jF3cPfxg7OAfoI7QnVKLoILlm2JF9pnVHrX8qx7AHMiYWT+NDAA7jChlNgRS4WTLc/fD1lXLmPixluj+3Gg=="],
+
+    "@esbuild/aix-ppc64": ["@esbuild/aix-ppc64@0.21.5", "", { "os": "aix", "cpu": "ppc64" }, "sha512-1SDgH6ZSPTlggy1yI6+Dbkiz8xzpHJEVAlF/AM1tHPLsf5STom9rwtjE4hKAF20FfXXNTFqEYXyJNWh1GiZedQ=="],
+
+    "@esbuild/android-arm": ["@esbuild/android-arm@0.21.5", "", { "os": "android", "cpu": "arm" }, "sha512-vCPvzSjpPHEi1siZdlvAlsPxXl7WbOVUBBAowWug4rJHb68Ox8KualB+1ocNvT5fjv6wpkX6o/iEpbDrf68zcg=="],
+
+    "@esbuild/android-arm64": ["@esbuild/android-arm64@0.21.5", "", { "os": "android", "cpu": "arm64" }, "sha512-c0uX9VAUBQ7dTDCjq+wdyGLowMdtR/GoC2U5IYk/7D1H1JYC0qseD7+11iMP2mRLN9RcCMRcjC4YMclCzGwS/A=="],
+
+    "@esbuild/android-x64": ["@esbuild/android-x64@0.21.5", "", { "os": "android", "cpu": "x64" }, "sha512-D7aPRUUNHRBwHxzxRvp856rjUHRFW1SdQATKXH2hqA0kAZb1hKmi02OpYRacl0TxIGz/ZmXWlbZgjwWYaCakTA=="],
+
+    "@esbuild/darwin-arm64": ["@esbuild/darwin-arm64@0.21.5", "", { "os": "darwin", "cpu": "arm64" }, "sha512-DwqXqZyuk5AiWWf3UfLiRDJ5EDd49zg6O9wclZ7kUMv2WRFr4HKjXp/5t8JZ11QbQfUS6/cRCKGwYhtNAY88kQ=="],
+
+    "@esbuild/darwin-x64": ["@esbuild/darwin-x64@0.21.5", "", { "os": "darwin", "cpu": "x64" }, "sha512-se/JjF8NlmKVG4kNIuyWMV/22ZaerB+qaSi5MdrXtd6R08kvs2qCN4C09miupktDitvh8jRFflwGFBQcxZRjbw=="],
+
+    "@esbuild/freebsd-arm64": ["@esbuild/freebsd-arm64@0.21.5", "", { "os": "freebsd", "cpu": "arm64" }, "sha512-5JcRxxRDUJLX8JXp/wcBCy3pENnCgBR9bN6JsY4OmhfUtIHe3ZW0mawA7+RDAcMLrMIZaf03NlQiX9DGyB8h4g=="],
+
+    "@esbuild/freebsd-x64": ["@esbuild/freebsd-x64@0.21.5", "", { "os": "freebsd", "cpu": "x64" }, "sha512-J95kNBj1zkbMXtHVH29bBriQygMXqoVQOQYA+ISs0/2l3T9/kj42ow2mpqerRBxDJnmkUDCaQT/dfNXWX/ZZCQ=="],
+
+    "@esbuild/linux-arm": ["@esbuild/linux-arm@0.21.5", "", { "os": "linux", "cpu": "arm" }, "sha512-bPb5AHZtbeNGjCKVZ9UGqGwo8EUu4cLq68E95A53KlxAPRmUyYv2D6F0uUI65XisGOL1hBP5mTronbgo+0bFcA=="],
+
+    "@esbuild/linux-arm64": ["@esbuild/linux-arm64@0.21.5", "", { "os": "linux", "cpu": "arm64" }, "sha512-ibKvmyYzKsBeX8d8I7MH/TMfWDXBF3db4qM6sy+7re0YXya+K1cem3on9XgdT2EQGMu4hQyZhan7TeQ8XkGp4Q=="],
+
+    "@esbuild/linux-ia32": ["@esbuild/linux-ia32@0.21.5", "", { "os": "linux", "cpu": "ia32" }, "sha512-YvjXDqLRqPDl2dvRODYmmhz4rPeVKYvppfGYKSNGdyZkA01046pLWyRKKI3ax8fbJoK5QbxblURkwK/MWY18Tg=="],
+
+    "@esbuild/linux-loong64": ["@esbuild/linux-loong64@0.21.5", "", { "os": "linux", "cpu": "none" }, "sha512-uHf1BmMG8qEvzdrzAqg2SIG/02+4/DHB6a9Kbya0XDvwDEKCoC8ZRWI5JJvNdUjtciBGFQ5PuBlpEOXQj+JQSg=="],
+
+    "@esbuild/linux-mips64el": ["@esbuild/linux-mips64el@0.21.5", "", { "os": "linux", "cpu": "none" }, "sha512-IajOmO+KJK23bj52dFSNCMsz1QP1DqM6cwLUv3W1QwyxkyIWecfafnI555fvSGqEKwjMXVLokcV5ygHW5b3Jbg=="],
+
+    "@esbuild/linux-ppc64": ["@esbuild/linux-ppc64@0.21.5", "", { "os": "linux", "cpu": "ppc64" }, "sha512-1hHV/Z4OEfMwpLO8rp7CvlhBDnjsC3CttJXIhBi+5Aj5r+MBvy4egg7wCbe//hSsT+RvDAG7s81tAvpL2XAE4w=="],
+
+    "@esbuild/linux-riscv64": ["@esbuild/linux-riscv64@0.21.5", "", { "os": "linux", "cpu": "none" }, "sha512-2HdXDMd9GMgTGrPWnJzP2ALSokE/0O5HhTUvWIbD3YdjME8JwvSCnNGBnTThKGEB91OZhzrJ4qIIxk/SBmyDDA=="],
+
+    "@esbuild/linux-s390x": ["@esbuild/linux-s390x@0.21.5", "", { "os": "linux", "cpu": "s390x" }, "sha512-zus5sxzqBJD3eXxwvjN1yQkRepANgxE9lgOW2qLnmr8ikMTphkjgXu1HR01K4FJg8h1kEEDAqDcZQtbrRnB41A=="],
+
+    "@esbuild/linux-x64": ["@esbuild/linux-x64@0.21.5", "", { "os": "linux", "cpu": "x64" }, "sha512-1rYdTpyv03iycF1+BhzrzQJCdOuAOtaqHTWJZCWvijKD2N5Xu0TtVC8/+1faWqcP9iBCWOmjmhoH94dH82BxPQ=="],
+
+    "@esbuild/netbsd-x64": ["@esbuild/netbsd-x64@0.21.5", "", { "os": "none", "cpu": "x64" }, "sha512-Woi2MXzXjMULccIwMnLciyZH4nCIMpWQAs049KEeMvOcNADVxo0UBIQPfSmxB3CWKedngg7sWZdLvLczpe0tLg=="],
+
+    "@esbuild/openbsd-x64": ["@esbuild/openbsd-x64@0.21.5", "", { "os": "openbsd", "cpu": "x64" }, "sha512-HLNNw99xsvx12lFBUwoT8EVCsSvRNDVxNpjZ7bPn947b8gJPzeHWyNVhFsaerc0n3TsbOINvRP2byTZ5LKezow=="],
+
+    "@esbuild/sunos-x64": ["@esbuild/sunos-x64@0.21.5", "", { "os": "sunos", "cpu": "x64" }, "sha512-6+gjmFpfy0BHU5Tpptkuh8+uw3mnrvgs+dSPQXQOv3ekbordwnzTVEb4qnIvQcYXq6gzkyTnoZ9dZG+D4garKg=="],
+
+    "@esbuild/win32-arm64": ["@esbuild/win32-arm64@0.21.5", "", { "os": "win32", "cpu": "arm64" }, "sha512-Z0gOTd75VvXqyq7nsl93zwahcTROgqvuAcYDUr+vOv8uHhNSKROyU961kgtCD1e95IqPKSQKH7tBTslnS3tA8A=="],
+
+    "@esbuild/win32-ia32": ["@esbuild/win32-ia32@0.21.5", "", { "os": "win32", "cpu": "ia32" }, "sha512-SWXFF1CL2RVNMaVs+BBClwtfZSvDgtL//G/smwAc5oVK/UPu2Gu9tIaRgFmYFFKrmg3SyAjSrElf0TiJ1v8fYA=="],
+
+    "@esbuild/win32-x64": ["@esbuild/win32-x64@0.21.5", "", { "os": "win32", "cpu": "x64" }, "sha512-tQd/1efJuzPC6rCFwEvLtci/xNFcTZknmXs98FYDfGE4wP9ClFV98nyKrzJKVPMhdDnjzLhdUyMX4PsQAPjwIw=="],
+
+    "@hono/node-server": ["@hono/node-server@1.19.17", "", { "peerDependencies": { "hono": "^4" } }, "sha512-dSneS5qhiauZWGDCeK4o695Xd9nUNjviSZCMQrj10eetr8Uln1ucn6bbphOM6UynAMMtNIzZNSpL9vnASJwrPQ=="],
+
+    "@jridgewell/gen-mapping": ["@jridgewell/gen-mapping@0.3.13", "", { "dependencies": { "@jridgewell/sourcemap-codec": "^1.5.0", "@jridgewell/trace-mapping": "^0.3.24" } }, "sha512-2kkt/7niJ6MgEPxF0bYdQ6etZaA+fQvDcLKckhy1yIQOzaoKjBBjSj63/aLVjYE3qhRt5dvM+uUyfCg6UKCBbA=="],
+
+    "@jridgewell/remapping": ["@jridgewell/remapping@2.3.5", "", { "dependencies": { "@jridgewell/gen-mapping": "^0.3.5", "@jridgewell/trace-mapping": "^0.3.24" } }, "sha512-LI9u/+laYG4Ds1TDKSJW2YPrIlcVYOwi2fUC6xB43lueCjgxV4lffOCZCtYFiH6TNOX+tQKXx97T4IKHbhyHEQ=="],
+
+    "@jridgewell/resolve-uri": ["@jridgewell/resolve-uri@3.1.2", "", {}, "sha512-bRISgCIjP20/tbWSPWMEi54QVPRZExkuD9lJL+UIxUKtwVJA8wW1Trb1jMs1RFXo1CBTNZ/5hpC9QvmKWdopKw=="],
+
+    "@jridgewell/sourcemap-codec": ["@jridgewell/sourcemap-codec@1.6.0", "", {}, "sha512-T7jf+5zgsZHwNJ4lvQ7/aezbyk0nNX+zJVWpmHA7VYsEx7a7qr5Rg5IbtJFqkgze5Y2sruq1RUY8Q837Od7iFw=="],
+
+    "@jridgewell/trace-mapping": ["@jridgewell/trace-mapping@0.3.31", "", { "dependencies": { "@jridgewell/resolve-uri": "^3.1.0", "@jridgewell/sourcemap-codec": "^1.4.14" } }, "sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw=="],
+
+    "@napi-rs/lzma-linux-x64-gnu": ["@napi-rs/lzma-linux-x64-gnu@1.5.1", "", { "os": "linux", "cpu": "x64" }, "sha512-oTXEIha4SsuXdTA4Iyskj0kpdx2yVXdhd75c2v3xGrHFfVMsbhTPZU/nMPL4sWKo4pBHm3aucLaqGlF696dTyQ=="],
+
+    "@rolldown/pluginutils": ["@rolldown/pluginutils@1.0.0-beta.27", "", {}, "sha512-+d0F4MKMCbeVUJwG96uQ4SgAznZNSq93I3V+9NHA4OpvqG8mRCpGdKmK8l/dl02h2CCDHwW2FqilnTyDcAnqjA=="],
+
+    "@rollup/rollup-android-arm-eabi": ["@rollup/rollup-android-arm-eabi@4.64.12", "", { "os": "android", "cpu": "arm" }, "sha512-Z8lz+5UOiCJLonjeqwJlhUtHA/Sr6R1AidkccQxdWF0nigNzP81aLoU+udgOaGfL5s1uzFXzcux/pCwGAMu0lw=="],
+
+    "@rollup/rollup-android-arm64": ["@rollup/rollup-android-arm64@4.64.12", "", { "os": "android", "cpu": "arm64" }, "sha512-+tKxNa2psFmiTb0KfXlXs4Yj7vkEhzAvZ0DrQ5+0gWHQJM10jSleQ3l1FIVm5uvD53YM8lHfM4mgCLDDN9f1Gg=="],
+
+    "@rollup/rollup-darwin-arm64": ["@rollup/rollup-darwin-arm64@4.64.12", "", { "os": "darwin", "cpu": "arm64" }, "sha512-iiripdfvyRBugV55/Dk7GplNXQtN/PG85OcKeveU1z2UkTg0MofbBF1qk//qgPWiqJbVvQcXAVCfE56oDGO4EQ=="],
+
+    "@rollup/rollup-darwin-x64": ["@rollup/rollup-darwin-x64@4.64.12", "", { "os": "darwin", "cpu": "x64" }, "sha512-BmATib8swSMAagWNIfDZMnb+k34RXR4bbGOUfZgK8lLlniuMyVoSDDXCOGkdhtUmBXL4aygDh7bhjQ+TmhTvIw=="],
+
+    "@rollup/rollup-freebsd-arm64": ["@rollup/rollup-freebsd-arm64@4.64.12", "", { "os": "freebsd", "cpu": "arm64" }, "sha512-GzrO0CiUq8vcAI/hYJuIcp6wNm3T3YhOpumYtf9Z3Fz+cfN1VESCVfy7EPcM3/m2K8l+Gn2U+4XtNZjwhUXctQ=="],
+
+    "@rollup/rollup-freebsd-x64": ["@rollup/rollup-freebsd-x64@4.64.12", "", { "os": "freebsd", "cpu": "x64" }, "sha512-Dpta6gigm4o6SYioXtTkZBlGLA/Sl6OpzgLqY+51uafJE2blPejAtR1w82CVLPN+F9cvo1+/em92x/zcOgY0uQ=="],
+
+    "@rollup/rollup-linux-arm-gnueabihf": ["@rollup/rollup-linux-arm-gnueabihf@4.64.12", "", { "os": "linux", "cpu": "arm" }, "sha512-YpeDwQ5uFaogRvytNC8RK0keDO65kI5wNEhGSs+4GiJc3KHhxj4j5cnQh2nCu9ybJj6RP0/ycB6bkN0yFJ9I+w=="],
+
+    "@rollup/rollup-linux-arm-musleabihf": ["@rollup/rollup-linux-arm-musleabihf@4.64.12", "", { "os": "linux", "cpu": "arm" }, "sha512-LQrB3/sImIr1ycrlEyaApOLH1rAy8JV4/dH4eoK817aWATdcs4fESXz53/w72NwDnwPM5zEUpoL7socH4ZDnwA=="],
+
+    "@rollup/rollup-linux-arm64-gnu": ["@rollup/rollup-linux-arm64-gnu@4.64.12", "", { "os": "linux", "cpu": "arm64" }, "sha512-iAF2iYu9S4SBfNsb4k0ewNBjO83WxHEltIuKQBGMzEKFgrYfmJn+gatBDXR2t/0zJN0UW0kzR4rfvQ1UHzkZ1A=="],
+
+    "@rollup/rollup-linux-arm64-musl": ["@rollup/rollup-linux-arm64-musl@4.64.12", "", { "os": "linux", "cpu": "arm64" }, "sha512-0MQdRtdbirJCXPIVeW/hd/LXLR8Qz96pc+2EBptuuV5q/zSGOzND7SZt8gBTE58NC9cUG/8UxcUXQiKRZ2WzzA=="],
+
+    "@rollup/rollup-linux-loong64-gnu": ["@rollup/rollup-linux-loong64-gnu@4.64.12", "", { "os": "linux", "cpu": "none" }, "sha512-yGDEwn0AGnrY/KCz2oY8R9KKNiQnTcwNuCWXeSXF0VLxXzlqoCgaS5QHsf1lbQvKWwPuN2Czkjk1wXRCBONTOQ=="],
+
+    "@rollup/rollup-linux-loong64-musl": ["@rollup/rollup-linux-loong64-musl@4.64.12", "", { "os": "linux", "cpu": "none" }, "sha512-AjlbD0efZEhHaJ3bsNjxSFDoguNq6VZvC+FKGJGBCA+ZN7BrZq2TuuSWFa6AI8IpOeuvhp2LoYcP7jiZwmtU0Q=="],
+
+    "@rollup/rollup-linux-ppc64-gnu": ["@rollup/rollup-linux-ppc64-gnu@4.64.12", "", { "os": "linux", "cpu": "ppc64" }, "sha512-sDW0CiPoUCEEUV25uBG5sJ2gKe75DJqLpj91m1eK1vKffywyY7v4i6q1450ZuR6QW4NArXg7JpbMGgKU8di3HQ=="],
+
+    "@rollup/rollup-linux-ppc64-musl": ["@rollup/rollup-linux-ppc64-musl@4.64.12", "", { "os": "linux", "cpu": "ppc64" }, "sha512-VTQYUhMjl8kv999VuYqScgv7P9cR9KuxI/6bkUsEa3bsswqG0+otFjuLZmJ1U+ffEP4IAz0jxOeV0DX6NRBhjg=="],
+
+    "@rollup/rollup-linux-riscv64-gnu": ["@rollup/rollup-linux-riscv64-gnu@4.64.12", "", { "os": "linux", "cpu": "none" }, "sha512-ppsKwpSjNrzJ8hge3Z3uiCcoRgAAQk2tU7auy3MFF348ffWRldFPnWIT/a/enK7huijlTfnwn4DYpDoapEb45A=="],
+
+    "@rollup/rollup-linux-riscv64-musl": ["@rollup/rollup-linux-riscv64-musl@4.64.12", "", { "os": "linux", "cpu": "none" }, "sha512-Gc3cVRC1trFH+GFWWTsJz6YuD4u75fzr/q99jqQGimonN/zvN6Wecck5WGzllOHj+XYXHcq0Ibor0tanGjfI6A=="],
+
+    "@rollup/rollup-linux-s390x-gnu": ["@rollup/rollup-linux-s390x-gnu@4.64.12", "", { "os": "linux", "cpu": "s390x" }, "sha512-pjmDTFStvwFE3shTeUDvSDiSp8/qAf5bQXejcEUDDavWz4jEhTIpCdpS06G0PEwSCSNK0Lngjz2v9l4hk3Z74A=="],
+
+    "@rollup/rollup-linux-x64-gnu": ["@rollup/rollup-linux-x64-gnu@4.64.12", "", { "os": "linux", "cpu": "x64" }, "sha512-mkbjxPqpR91u1JD7xY4aLZhr/Mqka4/RqGcG4WNGgN/lC1o7TzyCyqJoSJXp9qVVxMwpJGFlEF1VlERb+Ghw1Q=="],
+
+    "@rollup/rollup-linux-x64-musl": ["@rollup/rollup-linux-x64-musl@4.64.12", "", { "os": "linux", "cpu": "x64" }, "sha512-vIeut2LkuVc3gcsawLJPahNAzvzBcFRhu2O+yVb//BuQKz7PIItMF0piXRbN/lIDO3d68TSDd368Vg6YwgTybw=="],
+
+    "@rollup/rollup-openbsd-x64": ["@rollup/rollup-openbsd-x64@4.64.12", "", { "os": "openbsd", "cpu": "x64" }, "sha512-3Sx+D3r9oPkTdNUcPrIRM2Am+vzEV6VGWoImHG4ZVK2jJeOW+eDjLeTm6nvu/z/m0fiX2YmGLXIypblc336MXg=="],
+
+    "@rollup/rollup-openharmony-arm64": ["@rollup/rollup-openharmony-arm64@4.64.12", "", { "os": "none", "cpu": "arm64" }, "sha512-Nn2xh0teFnl71EiiUrKvECWcdGXtWF8q0uGclYwXGVw6QClGAcME0/bJSGdK+xIvd6MLEKYmjkTUvCBV+7m5Kw=="],
+
+    "@rollup/rollup-win32-arm64-msvc": ["@rollup/rollup-win32-arm64-msvc@4.64.12", "", { "os": "win32", "cpu": "arm64" }, "sha512-n1/0H9TS+kBa4xp6n9aV7yiynBNfmerjkj2nAMIfY0ZHv1zShWRXnsAuAPAH0sfEK4ZSMK+z24q2RjAPFLCN1w=="],
+
+    "@rollup/rollup-win32-ia32-msvc": ["@rollup/rollup-win32-ia32-msvc@4.64.12", "", { "os": "win32", "cpu": "ia32" }, "sha512-AdlDbQpsLfGlsHr1NfLZFtdnvxCKNp9TwlYVYExs8JJLWjLafUQEKJk0r9zUbmU57mw9nglMEvzqPHuLWYmaKw=="],
+
+    "@rollup/rollup-win32-x64-gnu": ["@rollup/rollup-win32-x64-gnu@4.64.12", "", { "os": "win32", "cpu": "x64" }, "sha512-u5SSUJBHod51UamjkigSr+JPre6xMy5vaWTTV2K0SnFG4RuKyYpf66dTSLFKX2cwaldpwyBurXPUCxq8riQMEg=="],
+
+    "@rollup/rollup-win32-x64-msvc": ["@rollup/rollup-win32-x64-msvc@4.64.12", "", { "os": "win32", "cpu": "x64" }, "sha512-j5rXD4R/4DM5+V991AA9xOnG2Rwu2g3p5TPgu1Eu7apju0NUrLl+Bn/KpWc6wYJtlXqzwz1r+LNV1JeBU4VGvw=="],
+
+    "@tdk-landscape/tdk-cli-core": ["@tdk-landscape/tdk-cli-core@1.3.186", "", { "dependencies": { "commander": "^15.0.0", "handlebars": "^4.7.8" }, "bin": { "tdk": "cli/bin/tdk.js", "tdk-cli": "cli/bin/tdk.js" } }, "sha512-5nE2sdKIi1MNZqor+XylZoQbahP55IW9oThBiC1kXNTLvg2qUZimeATjVpE+vScMkobmfSUUvi7leRZeF7KoYQ=="],
+
+    "@types/babel__core": ["@types/babel__core@7.20.5", "", { "dependencies": { "@babel/parser": "^7.20.7", "@babel/types": "^7.20.7", "@types/babel__generator": "*", "@types/babel__template": "*", "@types/babel__traverse": "*" } }, "sha512-qoQprZvz5wQFJwMDqeseRXWv3rqMvhgpbXFfVyWhbx9X47POIA6i/+dXefEmZKoAgOaTdaIgNSMqMIU61yRyzA=="],
+
+    "@types/babel__generator": ["@types/babel__generator@7.27.0", "", { "dependencies": { "@babel/types": "^7.0.0" } }, "sha512-ufFd2Xi92OAVPYsy+P4n7/U7e68fex0+Ee8gSG9KX7eo084CWiQ4sdxktvdl0bOPupXtVJPY19zk6EwWqUQ8lg=="],
+
+    "@types/babel__template": ["@types/babel__template@7.4.4", "", { "dependencies": { "@babel/parser": "^7.1.0", "@babel/types": "^7.0.0" } }, "sha512-h/NUaSyG5EyxBIp8YRxo4RMe2/qQgvyowRwVMzhYhBCONbW8PUsg4lkFMrhgZhUe5z3L3MiLDuvyJ/CaPa2A8A=="],
+
+    "@types/babel__traverse": ["@types/babel__traverse@7.28.0", "", { "dependencies": { "@babel/types": "^7.28.2" } }, "sha512-8PvcXf70gTDZBgt9ptxJ8elBeBjcLOAcOtoO/mPJjtji1+CdGbHgm77om1GrsPxsiE+uXIpNSK64UYaIwQXd4Q=="],
+
+    "@types/bun": ["@types/bun@1.4.3", "", { "dependencies": { "bun-types": "1.4.3" } }, "sha512-N67Pqy8JXbAY/j0tNraS3V5mubGvc6rrrNDmDCtZLlFzccbUJPDb0tvgUBC5q4m8ybkP93Jcn1QB+RYQ6PvBhw=="],
+
+    "@types/estree": ["@types/estree@1.0.9", "", {}, "sha512-GhdPgy1el4/ImP05X05Uw4cw2/M93BCUmnEvWZNStlCzEKME4Fkk+YpoA5OiHNQmoS7Cafb8Xa3Pya8m1Qrzeg=="],
+
+    "@types/node": ["@types/node@20.19.43", "", { "dependencies": { "undici-types": "~6.21.0" } }, "sha512-6oYBAi5ikg4Pl+kGsoYtawUMBT2zZMCvPNF7pVLnHZfd1zf38DRiWn/gT01RYCdUqkv7Fhr+C9ot4/tb+2sVvA=="],
+
+    "@types/prop-types": ["@types/prop-types@15.7.15", "", {}, "sha512-F6bEyamV9jKGAFBEmlQnesRPGOQqS2+Uwi0Em15xenOxHaf2hv6L8YCVn3rPdPJOiJfPiCnLIRyvwVaqMY3MIw=="],
+
+    "@types/react": ["@types/react@18.3.31", "", { "dependencies": { "@types/prop-types": "*", "csstype": "^3.2.2" } }, "sha512-vfEqpXTvwT91yhmwdfouStN2hSKwTvyRs8qpLfADyrq/kxDw0hZM7Wk9Ug1FELj8hIby+S/+kQCSRFF32nv2Qw=="],
+
+    "@types/react-dom": ["@types/react-dom@18.3.7", "", { "peerDependencies": { "@types/react": "^18.0.0" } }, "sha512-MEe3UeoENYVFXzoXEWsvcpg6ZvlrFNlOQ7EOsvhI3CfAXwzPfO8Qwuxd40nepsYKqyyVQnTdEfv68q91yLcKrQ=="],
+
+    "@vitejs/plugin-react": ["@vitejs/plugin-react@4.7.0", "", { "dependencies": { "@babel/core": "^7.28.0", "@babel/plugin-transform-react-jsx-self": "^7.27.1", "@babel/plugin-transform-react-jsx-source": "^7.27.1", "@rolldown/pluginutils": "1.0.0-beta.27", "@types/babel__core": "^7.20.5", "react-refresh": "^0.17.0" }, "peerDependencies": { "vite": "^4.2.0 || ^5.0.0 || ^6.0.0 || ^7.0.0" } }, "sha512-gUu9hwfWvvEDBBmgtAowQCojwZmJ5mcLn3aufeCsitijs3+f2NsrPtlAWIR6OPiqljl96GVCUbLe0HyqIpVaoA=="],
+
+    "accounts-payable-api": ["accounts-payable-api@workspace:services/finance/accounts-payable-api"],
+
+    "accounts-receivable-api": ["accounts-receivable-api@workspace:services/finance/accounts-receivable-api"],
+
+    "analytics-portal-api": ["analytics-portal-api@workspace:services/analytics/analytics-portal-api"],
+
+    "asset-management-api": ["asset-management-api@workspace:services/finance/asset-management-api"],
+
+    "audit-trail-api": ["audit-trail-api@workspace:services/finance/audit-trail-api"],
+
+    "banking-integration-api": ["banking-integration-api@workspace:services/finance/banking-integration-api"],
+
+    "baseline-browser-mapping": ["baseline-browser-mapping@2.11.30", "", { "bin": { "baseline-browser-mapping": "dist/cli.cjs" } }, "sha512-YJs6Pz17RMNv8HoyKREtCY38E3BV1nPkWVmIb+XN1uHC1Vqt3KZCH/uJH9ZKRoiKb/icZ6tvehyee6RZNbFfRA=="],
+
+    "batch-tracking-api": ["batch-tracking-api@workspace:services/inventory/batch-tracking-api"],
+
+    "benefits-administration-api": ["benefits-administration-api@workspace:services/hr/benefits-administration-api"],
+
+    "bi-dashboard-app": ["bi-dashboard-app@workspace:services/analytics/bi-dashboard-app"],
+
+    "bom-management-api": ["bom-management-api@workspace:services/manufacturing/bom-management-api"],
+
+    "browserslist": ["browserslist@4.29.4", "", { "dependencies": { "baseline-browser-mapping": "^2.11.29", "caniuse-lite": "^1.0.30001816", "electron-to-chromium": "^1.5.459", "node-releases": "^2.0.59", "update-browserslist-db": "^1.3.4" }, "bin": { "browserslist": "cli.js" } }, "sha512-2TcbbiwXEq+N0kD36tykpCfyyQigUXmuwNQbnPp4Xk4PX9JOqVIKjJlIDjpH7uY6tmRGoAd+apeT1p60T8wsdA=="],
+
+    "budgeting-api": ["budgeting-api@workspace:services/finance/budgeting-api"],
+
+    "bun-types": ["bun-types@1.4.3", "", { "dependencies": { "@types/node": "*", "undici-types": "*" } }, "sha512-tinRJNGOmUN+tEAsn2y2e942n9JHRHR42iUYzDH75NmhJqVBokGSQkkfSFdNWwsANIdrK6ACH9t01M452YyTwg=="],
+
+    "business-intelligence-api": ["business-intelligence-api@workspace:services/analytics/business-intelligence-api"],
+
+    "caniuse-lite": ["caniuse-lite@1.0.30001817", "", {}, "sha512-uZ1JG80BwhtMalIAGPxPfmNhHyd/B/nTdr3hITWlRamSyAdUStP1Gop01e7SD5q6J90ixJvWDbvmiFVfDgn4bw=="],
+
+    "capacity-planning-api": ["capacity-planning-api@workspace:services/manufacturing/capacity-planning-api"],
+
+    "cash-management-api": ["cash-management-api@workspace:services/finance/cash-management-api"],
+
+    "commander": ["commander@15.0.0", "", {}, "sha512-z67u4ZhzCL/Tydu1lJARtEZYWbWaN7oYLHbsuzocr6y4N6WZAagG3RQ4FW61V1/0+jImpj293XfrcYnd1qxtPg=="],
+
+    "commission-api": ["commission-api@workspace:services/sales/commission-api"],
+
+    "compensation-api": ["compensation-api@workspace:services/hr/compensation-api"],
+
+    "compliance-api": ["compliance-api@workspace:services/hr/compliance-api"],
+
+    "contract-management-api": ["contract-management-api@workspace:services/sales/contract-management-api"],
+
+    "convert-source-map": ["convert-source-map@2.0.0", "", {}, "sha512-Kvp459HrV2FEJ1CAsi1Ku+MY3kasH19TFykTz2xWmMeq6bk2NU3XXvfJ+Q61m0xktWwt+1HSYf3JZsTms3aRJg=="],
+
+    "cost-accounting-api": ["cost-accounting-api@workspace:services/finance/cost-accounting-api"],
+
+    "crm-api": ["crm-api@workspace:services/sales/crm-api"],
+
+    "csstype": ["csstype@3.2.3", "", {}, "sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ=="],
+
+    "customer-portal-api": ["customer-portal-api@workspace:services/sales/customer-portal-api"],
+
+    "cycle-counting-api": ["cycle-counting-api@workspace:services/inventory/cycle-counting-api"],
+
+    "dashboard-api": ["dashboard-api@workspace:services/analytics/dashboard-api"],
+
+    "data-governance-api": ["data-governance-api@workspace:services/analytics/data-governance-api"],
+
+    "data-warehouse-api": ["data-warehouse-api@workspace:services/analytics/data-warehouse-api"],
+
+    "deal-management-api": ["deal-management-api@workspace:services/sales/deal-management-api"],
+
+    "debug": ["debug@4.4.3", "", { "dependencies": { "ms": "^2.1.3" }, "peerDependencies": { "supports-color": "*" }, "optionalPeers": ["supports-color"] }, "sha512-RGwwWnwQvkVfavKVt22FGLw+xYSdzARwm0ru6DhTVA3umU5hZc28V3kO4stgYryrTlLpuvgI9GiijltAjNbcqA=="],
+
+    "demand-planning-api": ["demand-planning-api@workspace:services/supply_chain/demand-planning-api"],
+
+    "electron-to-chromium": ["electron-to-chromium@1.5.461", "", {}, "sha512-3WZFARz1By+/rYcqQ0OLj4UcEdhd6tz2LEcDtKBUq7ey77EeJ1OtetY/5hjSUxw7dC5r5mA7FfkhRbqO9vnTCg=="],
+
+    "employee-portal-api": ["employee-portal-api@workspace:services/hr/employee-portal-api"],
+
+    "employee-records-api": ["employee-records-api@workspace:services/hr/employee-records-api"],
+
+    "equipment-management-api": ["equipment-management-api@workspace:services/manufacturing/equipment-management-api"],
+
+    "esbuild": ["esbuild@0.21.5", "", { "optionalDependencies": { "@esbuild/aix-ppc64": "0.21.5", "@esbuild/android-arm": "0.21.5", "@esbuild/android-arm64": "0.21.5", "@esbuild/android-x64": "0.21.5", "@esbuild/darwin-arm64": "0.21.5", "@esbuild/darwin-x64": "0.21.5", "@esbuild/freebsd-arm64": "0.21.5", "@esbuild/freebsd-x64": "0.21.5", "@esbuild/linux-arm": "0.21.5", "@esbuild/linux-arm64": "0.21.5", "@esbuild/linux-ia32": "0.21.5", "@esbuild/linux-loong64": "0.21.5", "@esbuild/linux-mips64el": "0.21.5", "@esbuild/linux-ppc64": "0.21.5", "@esbuild/linux-riscv64": "0.21.5", "@esbuild/linux-s390x": "0.21.5", "@esbuild/linux-x64": "0.21.5", "@esbuild/netbsd-x64": "0.21.5", "@esbuild/openbsd-x64": "0.21.5", "@esbuild/sunos-x64": "0.21.5", "@esbuild/win32-arm64": "0.21.5", "@esbuild/win32-ia32": "0.21.5", "@esbuild/win32-x64": "0.21.5" }, "bin": { "esbuild": "bin/esbuild" } }, "sha512-mg3OPMV4hXywwpoDxu3Qda5xCKQi+vCTZq8S9J/EpkhB2HzKXq4SNFZE3+NK93JYxc8VMSep+lOUSC/RVKaBqw=="],
+
+    "escalade": ["escalade@3.2.0", "", {}, "sha512-WUj2qlxaQtO4g6Pq5c29GTcWGDyd8itL8zTlipgECz3JesAiiOKotd8JU6otB3PACgG6xkJUyVhboMS+bje/jA=="],
+
+    "expense-management-api": ["expense-management-api@workspace:services/finance/expense-management-api"],
+
+    "expiry-management-api": ["expiry-management-api@workspace:services/inventory/expiry-management-api"],
+
+    "finance-dashboard-app": ["finance-dashboard-app@workspace:services/finance/finance-dashboard-app"],
+
+    "financial-analytics-api": ["financial-analytics-api@workspace:services/finance/financial-analytics-api"],
+
+    "financial-reporting-api": ["financial-reporting-api@workspace:services/finance/financial-reporting-api"],
+
+    "fsevents": ["fsevents@2.3.3", "", { "os": "darwin" }, "sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw=="],
+
+    "general-ledger-api": ["general-ledger-api@workspace:services/finance/general-ledger-api"],
+
+    "gensync": ["gensync@1.0.0-beta.2", "", {}, "sha512-3hN7NaskYvMDLQY55gnW3NQ+mesEAepTqlg+VEbj7zzqEMBVNhzcGYYeqFo/TlYz6eQiFcp1HcsCZO+nGgS8zg=="],
+
+    "handlebars": ["handlebars@4.7.10", "", { "dependencies": { "minimist": "^1.2.8", "neo-async": "^2.6.2", "source-map": "^0.6.1", "wordwrap": "^1.0.0" }, "optionalDependencies": { "uglify-js": "^3.1.4" }, "bin": { "handlebars": "bin/handlebars" } }, "sha512-P5VJMVM7qgBn6vjXMw8WG9uVI+ncf2pi72j4de4yz5ZULLj2RGqLYaKOYGsgyrViQ0tePOVlN1tDCCXXtFqXKg=="],
+
+    "hono": ["hono@4.13.13", "", {}, "sha512-CQ46U0ZkAGmbT/4UxdzzGJpacP2IeKgY4a5/tOI9AABbpOMfK739wfDXmv1usCk+3RkKj1hQy4/fjhiwa2xlrA=="],
+
+    "hr-analytics-api": ["hr-analytics-api@workspace:services/hr/hr-analytics-api"],
+
+    "hr-portal-app": ["hr-portal-app@workspace:services/hr/hr-portal-app"],
+
+    "inventory-audit-api": ["inventory-audit-api@workspace:services/inventory/inventory-audit-api"],
+
+    "inventory-forecasting-api": ["inventory-forecasting-api@workspace:services/inventory/inventory-forecasting-api"],
+
+    "inventory-management-api": ["inventory-management-api@workspace:services/inventory/inventory-management-api"],
+
+    "inventory-management-app": ["inventory-management-app@workspace:services/inventory/inventory-management-app"],
+
+    "inventory-optimization-api": ["inventory-optimization-api@workspace:services/inventory/inventory-optimization-api"],
+
+    "inventory-replenishment-api": ["inventory-replenishment-api@workspace:services/inventory/inventory-replenishment-api"],
+
+    "inventory-reporting-api": ["inventory-reporting-api@workspace:services/inventory/inventory-reporting-api"],
+
+    "inventory-reservation-api": ["inventory-reservation-api@workspace:services/inventory/inventory-reservation-api"],
+
+    "inventory-valuation-api": ["inventory-valuation-api@workspace:services/inventory/inventory-valuation-api"],
+
+    "invoice-generation-api": ["invoice-generation-api@workspace:services/sales/invoice-generation-api"],
+
+    "js-tokens": ["js-tokens@4.0.0", "", {}, "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ=="],
+
+    "jsesc": ["jsesc@3.1.0", "", { "bin": { "jsesc": "bin/jsesc" } }, "sha512-/sM3dO2FOzXjKQhJuo0Q173wf2KOo8t4I8vHy6lF9poUp7bKT0/NHE8fPX23PwfhnykfqnC2xRxOnVw5XuGIaA=="],
+
+    "json5": ["json5@2.2.3", "", { "bin": { "json5": "lib/cli.js" } }, "sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg=="],
+
+    "lead-management-api": ["lead-management-api@workspace:services/sales/lead-management-api"],
+
+    "lean-manufacturing-api": ["lean-manufacturing-api@workspace:services/manufacturing/lean-manufacturing-api"],
+
+    "logistics-api": ["logistics-api@workspace:services/supply_chain/logistics-api"],
+
+    "loose-envify": ["loose-envify@1.4.0", "", { "dependencies": { "js-tokens": "^3.0.0 || ^4.0.0" }, "bin": { "loose-envify": "cli.js" } }, "sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q=="],
+
+    "lru-cache": ["lru-cache@5.1.1", "", { "dependencies": { "yallist": "^3.0.2" } }, "sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w=="],
+
+    "machine-learning-api": ["machine-learning-api@workspace:services/analytics/machine-learning-api"],
+
+    "maintenance-api": ["maintenance-api@workspace:services/manufacturing/maintenance-api"],
+
+    "manufacturing-analytics-api": ["manufacturing-analytics-api@workspace:services/manufacturing/manufacturing-analytics-api"],
+
+    "minimist": ["minimist@1.2.8", "", {}, "sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA=="],
+
+    "ms": ["ms@2.1.3", "", {}, "sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA=="],
+
+    "multi-location-api": ["multi-location-api@workspace:services/inventory/multi-location-api"],
+
+    "nanoid": ["nanoid@3.3.20", "", { "bin": { "nanoid": "bin/nanoid.cjs" } }, "sha512-uKdg2G3GNCKQn9byYOpxbGqrT2fGO5KRt5J/8b3pok8rT6qxGWF6hxMyJiEYtAf+FVyYuD9hRaDqX5uPFYJ4ZQ=="],
+
+    "neo-async": ["neo-async@2.6.2", "", {}, "sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw=="],
+
+    "node-releases": ["node-releases@2.0.59", "", {}, "sha512-5qr2okC4ItAI0hG5SaV0HoYMpnM/Y6+Oqr7AmPYy/2uEoGvS+GbSKLeRxSS1uAdu59yz0ouzcuXievSgg///WA=="],
+
+    "onboarding-api": ["onboarding-api@workspace:services/hr/onboarding-api"],
+
+    "opportunity-api": ["opportunity-api@workspace:services/sales/opportunity-api"],
+
+    "order-management-api": ["order-management-api@workspace:services/sales/order-management-api"],
+
+    "packaging-api": ["packaging-api@workspace:services/manufacturing/packaging-api"],
+
+    "payment-processing-api": ["payment-processing-api@workspace:services/sales/payment-processing-api"],
+
+    "payroll-processing-api": ["payroll-processing-api@workspace:services/finance/payroll-processing-api"],
+
+    "performance-management-api": ["performance-management-api@workspace:services/hr/performance-management-api"],
+
+    "picocolors": ["picocolors@1.1.1", "", {}, "sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA=="],
+
+    "postcss": ["postcss@8.5.31", "", { "dependencies": { "nanoid": "^3.3.20", "picocolors": "^1.1.1", "source-map-js": "^1.2.2" } }, "sha512-YUbWYCgErwnMAVkjUnYa+KlMBzGpHwiIt/DE7f0G33AuX2LH9UcTk6KgWxd3zRU+pN3u/C+Xl3EnMLM4Hea7Sg=="],
+
+    "predictive-analytics-api": ["predictive-analytics-api@workspace:services/analytics/predictive-analytics-api"],
+
+    "pricing-api": ["pricing-api@workspace:services/sales/pricing-api"],
+
+    "procurement-api": ["procurement-api@workspace:services/supply_chain/procurement-api"],
+
+    "product-catalog-api": ["product-catalog-api@workspace:services/inventory/product-catalog-api"],
+
+    "production-control-app": ["production-control-app@workspace:services/manufacturing/production-control-app"],
+
+    "production-costing-api": ["production-costing-api@workspace:services/manufacturing/production-costing-api"],
+
+    "production-planning-api": ["production-planning-api@workspace:services/manufacturing/production-planning-api"],
+
+    "production-scheduling-api": ["production-scheduling-api@workspace:services/manufacturing/production-scheduling-api"],
+
+    "production-tracking-api": ["production-tracking-api@workspace:services/manufacturing/production-tracking-api"],
+
+    "purchase-order-api": ["purchase-order-api@workspace:services/supply_chain/purchase-order-api"],
+
+    "quality-control-api": ["quality-control-api@workspace:services/manufacturing/quality-control-api"],
+
+    "quote-to-cash-api": ["quote-to-cash-api@workspace:services/sales/quote-to-cash-api"],
+
+    "quoting-api": ["quoting-api@workspace:services/sales/quoting-api"],
+
+    "react": ["react@18.3.1", "", { "dependencies": { "loose-envify": "^1.1.0" } }, "sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ=="],
+
+    "react-dom": ["react-dom@18.3.1", "", { "dependencies": { "loose-envify": "^1.1.0", "scheduler": "^0.23.2" }, "peerDependencies": { "react": "^18.3.1" } }, "sha512-5m4nQKp+rZRb09LNH59GM4BxTh9251/ylbKIbpe7TpGxfJ+9kv6BLkLBXIjjspbgbnIBNqlI23tRnTWT0snUIw=="],
+
+    "react-refresh": ["react-refresh@0.17.0", "", {}, "sha512-z6F7K9bV85EfseRCp2bzrpyQ0Gkw1uLoCel9XBVWPg/TjRj94SkJzUTGfOa4bs7iJvBWtQG0Wq7wnI0syw3EBQ=="],
+
+    "receiving-api": ["receiving-api@workspace:services/supply_chain/receiving-api"],
+
+    "recipe-management-api": ["recipe-management-api@workspace:services/manufacturing/recipe-management-api"],
+
+    "recruitment-api": ["recruitment-api@workspace:services/hr/recruitment-api"],
+
+    "reporting-api": ["reporting-api@workspace:services/analytics/reporting-api"],
+
+    "revenue-recognition-api": ["revenue-recognition-api@workspace:services/finance/revenue-recognition-api"],
+
+    "rollup": ["rollup@4.64.12", "", { "dependencies": { "@types/estree": "1.0.9" }, "optionalDependencies": { "@napi-rs/lzma-linux-x64-gnu": "1.5.1", "@rollup/rollup-android-arm-eabi": "4.64.12", "@rollup/rollup-android-arm64": "4.64.12", "@rollup/rollup-darwin-arm64": "4.64.12", "@rollup/rollup-darwin-x64": "4.64.12", "@rollup/rollup-freebsd-arm64": "4.64.12", "@rollup/rollup-freebsd-x64": "4.64.12", "@rollup/rollup-linux-arm-gnueabihf": "4.64.12", "@rollup/rollup-linux-arm-musleabihf": "4.64.12", "@rollup/rollup-linux-arm64-gnu": "4.64.12", "@rollup/rollup-linux-arm64-musl": "4.64.12", "@rollup/rollup-linux-loong64-gnu": "4.64.12", "@rollup/rollup-linux-loong64-musl": "4.64.12", "@rollup/rollup-linux-ppc64-gnu": "4.64.12", "@rollup/rollup-linux-ppc64-musl": "4.64.12", "@rollup/rollup-linux-riscv64-gnu": "4.64.12", "@rollup/rollup-linux-riscv64-musl": "4.64.12", "@rollup/rollup-linux-s390x-gnu": "4.64.12", "@rollup/rollup-linux-x64-gnu": "4.64.12", "@rollup/rollup-linux-x64-musl": "4.64.12", "@rollup/rollup-openbsd-x64": "4.64.12", "@rollup/rollup-openharmony-arm64": "4.64.12", "@rollup/rollup-win32-arm64-msvc": "4.64.12", "@rollup/rollup-win32-ia32-msvc": "4.64.12", "@rollup/rollup-win32-x64-gnu": "4.64.12", "@rollup/rollup-win32-x64-msvc": "4.64.12", "fsevents": "~2.3.2" }, "bin": { "rollup": "dist/bin/rollup" } }, "sha512-GhAu8ZglZ61VWSX/ZW3K/qkazgURBIQL0/Yy51QsS8DPyebR5Cf/Z2PANJFpTU0aVZ9byJcyqR6xvBbkXhdGYQ=="],
+
+    "sales-analytics-api": ["sales-analytics-api@workspace:services/sales/sales-analytics-api"],
+
+    "sales-automation-api": ["sales-automation-api@workspace:services/sales/sales-automation-api"],
+
+    "sales-crm-app": ["sales-crm-app@workspace:services/sales/sales-crm-app"],
+
+    "sales-forecasting-api": ["sales-forecasting-api@workspace:services/sales/sales-forecasting-api"],
+
+    "sales-performance-api": ["sales-performance-api@workspace:services/sales/sales-performance-api"],
+
+    "sales-portal-api": ["sales-portal-api@workspace:services/sales/sales-portal-api"],
+
+    "sales-reporting-api": ["sales-reporting-api@workspace:services/sales/sales-reporting-api"],
+
+    "scheduler": ["scheduler@0.23.2", "", { "dependencies": { "loose-envify": "^1.1.0" } }, "sha512-UOShsPwz7NrMUqhR6t0hWjFduvOzbtv7toDH1/hIrfRNIDBnnBWd0CwJTGvTpngVlmwGCdP9/Zl/tVrDqcuYzQ=="],
+
+    "semver": ["semver@6.3.1", "", { "bin": { "semver": "bin/semver.js" } }, "sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA=="],
+
+    "shipping-api": ["shipping-api@workspace:services/supply_chain/shipping-api"],
+
+    "shop-floor-control-api": ["shop-floor-control-api@workspace:services/manufacturing/shop-floor-control-api"],
+
+    "sku-management-api": ["sku-management-api@workspace:services/inventory/sku-management-api"],
+
+    "source-map": ["source-map@0.6.1", "", {}, "sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g=="],
+
+    "source-map-js": ["source-map-js@1.2.2", "", {}, "sha512-KGj/8Y43x35aZVDtt+J4mK1hoLGHULMYfSkODJNQjNDC3oW1PqPoxMwo0pLUsWM/UEGzON/NxeHywEfNXNP3Vw=="],
+
+    "stock-adjustment-api": ["stock-adjustment-api@workspace:services/inventory/stock-adjustment-api"],
+
+    "stock-control-api": ["stock-control-api@workspace:services/inventory/stock-control-api"],
+
+    "stock-movement-api": ["stock-movement-api@workspace:services/inventory/stock-movement-api"],
+
+    "supplier-management-api": ["supplier-management-api@workspace:services/supply_chain/supplier-management-api"],
+
+    "supplier-performance-api": ["supplier-performance-api@workspace:services/supply_chain/supplier-performance-api"],
+
+    "supply-chain-analytics-api": ["supply-chain-analytics-api@workspace:services/supply_chain/supply-chain-analytics-api"],
+
+    "supply-chain-app": ["supply-chain-app@workspace:services/supply_chain/supply-chain-app"],
+
+    "supply-chain-planning-api": ["supply-chain-planning-api@workspace:services/supply_chain/supply-chain-planning-api"],
+
+    "supply-chain-risk-api": ["supply-chain-risk-api@workspace:services/supply_chain/supply-chain-risk-api"],
+
+    "tax-compliance-api": ["tax-compliance-api@workspace:services/finance/tax-compliance-api"],
+
+    "territory-management-api": ["territory-management-api@workspace:services/sales/territory-management-api"],
+
+    "time-tracking-api": ["time-tracking-api@workspace:services/hr/time-tracking-api"],
+
+    "training-api": ["training-api@workspace:services/hr/training-api"],
+
+    "typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "uglify-js": ["uglify-js@3.19.3", "", { "bin": { "uglifyjs": "bin/uglifyjs" } }, "sha512-v3Xu+yuwBXisp6QYTcH4UbH+xYJXqnq2m/LtQVWKWzYc1iehYnLixoQDN9FH6/j9/oybfd6W9Ghwkl8+UMKTKQ=="],
+
+    "undici-types": ["undici-types@6.21.0", "", {}, "sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ=="],
+
+    "update-browserslist-db": ["update-browserslist-db@1.3.4", "", { "dependencies": { "escalade": "^3.2.0", "picocolors": "^1.1.1" }, "peerDependencies": { "browserslist": ">= 4.21.0" }, "bin": { "update-browserslist-db": "cli.js" } }, "sha512-t8wonIOdQyOjtPd2VktlBu6QjTVTks6v8bSi7kd0r2Vll8TK1JYDZtRRdbmCHOAMphkZgrzK+L+vXK4pyZ8t4A=="],
+
+    "vendor-portal-api": ["vendor-portal-api@workspace:services/supply_chain/vendor-portal-api"],
+
+    "vite": ["vite@5.4.21", "", { "dependencies": { "esbuild": "^0.21.3", "postcss": "^8.4.43", "rollup": "^4.20.0" }, "optionalDependencies": { "fsevents": "~2.3.3" }, "peerDependencies": { "@types/node": "^18.0.0 || >=20.0.0", "less": "*", "lightningcss": "^1.21.0", "sass": "*", "sass-embedded": "*", "stylus": "*", "sugarss": "*", "terser": "^5.4.0" }, "optionalPeers": ["@types/node", "less", "lightningcss", "sass", "sass-embedded", "stylus", "sugarss", "terser"], "bin": { "vite": "bin/vite.js" } }, "sha512-o5a9xKjbtuhY6Bi5S3+HvbRERmouabWbyUcpXXUA1u+GNUKoROi9byOJ8M0nHbHYHkYICiMlqxkg1KkYmm25Sw=="],
+
+    "warehouse-management-api": ["warehouse-management-api@workspace:services/inventory/warehouse-management-api"],
+
+    "wordwrap": ["wordwrap@1.0.0", "", {}, "sha512-gvVzJFlPycKc5dZN4yPkP8w7Dc37BtP1yczEneOb4uq34pXZcvrtRTmWV8W+Ume+XCxKgbjM+nevkyFPMybd4Q=="],
+
+    "work-order-api": ["work-order-api@workspace:services/manufacturing/work-order-api"],
+
+    "workforce-planning-api": ["workforce-planning-api@workspace:services/hr/workforce-planning-api"],
+
+    "yallist": ["yallist@3.1.1", "", {}, "sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g=="],
+
+    "bun-types/@types/node": ["@types/node@26.6.5", "", { "dependencies": { "undici-types": "~8.9.0" } }, "sha512-uMzsv9stDdofIZBx4UGh4Z9ZgXnGC9seRDscilBcTHAeOFk67MZg/k9bWVfO+bk4qZmG+l52hRnLwUiH2LnJTg=="],
+
+    "bun-types/undici-types": ["undici-types@8.12.3", "", {}, "sha512-EXE4ydL3S76dFb27UFjNVZHTyv/TLdATj/KUe29ptdcg6qXL48J2tZ3126E5kICj5jn781OR+XlVH1N6Mz8jbA=="],
+
+    "bun-types/@types/node/undici-types": ["undici-types@8.9.0", "", {}, "sha512-KTDyRTYX8sWmKXAikPHHSyc63CRPETMctyjKFupcC6OBLXT3xsN0e9aF7m+mIXutFWpUXuedtowG7iLOzp0kQg=="],
+  }
+}
