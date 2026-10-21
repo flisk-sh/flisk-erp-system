@@ -5,7 +5,7 @@
     "": {
       "name": "tdk-erp-system",
       "devDependencies": {
-        "@tdk-landscape/tdk-cli-core": "1.3.186",
+        "@flisk-sh/flisk": "1.3.190",
       },
     },
     "services/analytics/analytics-portal-api": {
@@ -1513,6 +1513,8 @@
 
     "@esbuild/win32-x64": ["@esbuild/win32-x64@0.21.5", "", { "os": "win32", "cpu": "x64" }, "sha512-tQd/1efJuzPC6rCFwEvLtci/xNFcTZknmXs98FYDfGE4wP9ClFV98nyKrzJKVPMhdDnjzLhdUyMX4PsQAPjwIw=="],
 
+    "@flisk-sh/flisk": ["@flisk-sh/flisk@1.3.190", "", { "dependencies": { "commander": "^15.0.0", "handlebars": "^4.7.8" }, "bin": { "tdk": "cli/bin/flisk.js", "flisk": "cli/bin/flisk.js", "tdk-cli": "cli/bin/flisk.js" } }, "sha512-z/SD1fV6a07S9z7jmDjXtiI6BcI2dIHTv4/2CQf8mXgtVq0mzRn7zogC6TTv32EFIwNepp8LbJ7mtBbUGBwIOA=="],
+
     "@hono/node-server": ["@hono/node-server@1.19.17", "", { "peerDependencies": { "hono": "^4" } }, "sha512-dSneS5qhiauZWGDCeK4o695Xd9nUNjviSZCMQrj10eetr8Uln1ucn6bbphOM6UynAMMtNIzZNSpL9vnASJwrPQ=="],
 
     "@jridgewell/gen-mapping": ["@jridgewell/gen-mapping@0.3.13", "", { "dependencies": { "@jridgewell/sourcemap-codec": "^1.5.0", "@jridgewell/trace-mapping": "^0.3.24" } }, "sha512-2kkt/7niJ6MgEPxF0bYdQ6etZaA+fQvDcLKckhy1yIQOzaoKjBBjSj63/aLVjYE3qhRt5dvM+uUyfCg6UKCBbA=="],
@@ -1579,8 +1581,6 @@
 
     "@rollup/rollup-win32-x64-msvc": ["@rollup/rollup-win32-x64-msvc@4.64.12", "", { "os": "win32", "cpu": "x64" }, "sha512-j5rXD4R/4DM5+V991AA9xOnG2Rwu2g3p5TPgu1Eu7apju0NUrLl+Bn/KpWc6wYJtlXqzwz1r+LNV1JeBU4VGvw=="],
 
-    "@tdk-landscape/tdk-cli-core": ["@tdk-landscape/tdk-cli-core@1.3.186", "", { "dependencies": { "commander": "^15.0.0", "handlebars": "^4.7.8" }, "bin": { "tdk": "cli/bin/tdk.js", "tdk-cli": "cli/bin/tdk.js" } }, "sha512-5nE2sdKIi1MNZqor+XylZoQbahP55IW9oThBiC1kXNTLvg2qUZimeATjVpE+vScMkobmfSUUvi7leRZeF7KoYQ=="],
-
     "@types/babel__core": ["@types/babel__core@7.20.5", "", { "dependencies": { "@babel/parser": "^7.20.7", "@babel/types": "^7.20.7", "@types/babel__generator": "*", "@types/babel__template": "*", "@types/babel__traverse": "*" } }, "sha512-qoQprZvz5wQFJwMDqeseRXWv3rqMvhgpbXFfVyWhbx9X47POIA6i/+dXefEmZKoAgOaTdaIgNSMqMIU61yRyzA=="],
 
     "@types/babel__generator": ["@types/babel__generator@7.27.0", "", { "dependencies": { "@babel/types": "^7.0.0" } }, "sha512-ufFd2Xi92OAVPYsy+P4n7/U7e68fex0+Ee8gSG9KX7eo084CWiQ4sdxktvdl0bOPupXtVJPY19zk6EwWqUQ8lg=="],
@@ -1633,7 +1633,7 @@
 
     "business-intelligence-api": ["business-intelligence-api@workspace:services/analytics/business-intelligence-api"],
 
-    "caniuse-lite": ["caniuse-lite@1.0.30001817", "", {}, "sha512-uZ1JG80BwhtMalIAGPxPfmNhHyd/B/nTdr3hITWlRamSyAdUStP1Gop01e7SD5q6J90ixJvWDbvmiFVfDgn4bw=="],
+    "caniuse-lite": ["caniuse-lite@1.0.30001818", "", {}, "sha512-XJbgo4adscw7R4MZU4/qVFkoMyPaNUAWmdNY4o/k9x7fFwmv4frIlndI9lWuaxviW9ObiZel9LuncnQPn6hQ5A=="],
 
     "capacity-planning-api": ["capacity-planning-api@workspace:services/manufacturing/capacity-planning-api"],
 
@@ -1673,7 +1673,7 @@
 
     "demand-planning-api": ["demand-planning-api@workspace:services/supply_chain/demand-planning-api"],
 
-    "electron-to-chromium": ["electron-to-chromium@1.5.461", "", {}, "sha512-3WZFARz1By+/rYcqQ0OLj4UcEdhd6tz2LEcDtKBUq7ey77EeJ1OtetY/5hjSUxw7dC5r5mA7FfkhRbqO9vnTCg=="],
+    "electron-to-chromium": ["electron-to-chromium@1.5.463", "", {}, "sha512-nVWNU6ltFjopvOdD44J4zoBkgO0M+WZiFKKFV7EjebOH9z0KNphk6bCEjplXtJofL21ARIuuwWOCsFkBVklm6w=="],
 
     "employee-portal-api": ["employee-portal-api@workspace:services/hr/employee-portal-api"],
 
