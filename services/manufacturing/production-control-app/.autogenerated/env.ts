@@ -6,4 +6,4 @@
  * Base API URL for manufacturing resource
  * Uses VITE_API_URL env var with fallback to local dev URL
  */
-export const API_URL = import.meta.env.VITE_API_URL || 'http://api.tdk-erp-system.localhost/api/manufacturing-management';
+export const API_URL = import.meta.env.VITE_API_URL || 'http://api.flisk-erp-system.localhost/api/manufacturing-management';

@@ -1,10 +1,10 @@
 # Flisk Enterprise ERP System Tiltfile
 # 100 Microservices Across Finance, HR, Inventory, Sales, Manufacturing, Supply Chain, Analytics
 
-v1alpha1.extension_repo(name='tdk-cli', url='https://github.com/flisk-sh/flisk')
-v1alpha1.extension(name='tdk-cli', repo_name='tdk-cli', repo_path='')
+v1alpha1.extension_repo(name='flisk-cli', url='https://github.com/flisk-sh/flisk')
+v1alpha1.extension(name='flisk-cli', repo_name='flisk-cli', repo_path='')
 
-load('ext://tdk-cli', 'Utils', 'Manifest', 'Config')
+load('ext://flisk-cli', 'Utils', 'Manifest', 'Config')
 
 print("Flisk Enterprise ERP System Landscape")
 print("   Project -> Stacks: finance, hr, inventory, sales, manufacturing, supply_chain, analytics")

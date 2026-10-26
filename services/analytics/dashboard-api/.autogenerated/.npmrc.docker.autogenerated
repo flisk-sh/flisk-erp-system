@@ -10,8 +10,8 @@
 ###############################################################################
 
 registry=https://registry.npmjs.org/
-@tdk-erp-system:registry=http://verdaccio:4873/
-@tdk-landscape:registry=http://verdaccio:4873/
+@flisk-erp-system:registry=http://verdaccio:4873/
+@flisk-sh:registry=http://verdaccio:4873/
 @identity:registry=http://verdaccio:4873/
 //verdaccio:4873/:username=admin
 //verdaccio:4873/:_password=YWRtaW4=

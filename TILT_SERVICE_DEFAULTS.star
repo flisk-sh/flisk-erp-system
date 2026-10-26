@@ -29,7 +29,7 @@ DOCKER_BASE_IMAGES = {
     "redis": "redis:7-alpine",
 }
 
-NETWORK_PREFIX = "tdk-erp"
+NETWORK_PREFIX = "flisk-erp"
 
 exports = {
     "BASE_PORT_FRONTEND": BASE_PORT_FRONTEND,

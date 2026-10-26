@@ -3,7 +3,7 @@
   "configVersion": 1,
   "workspaces": {
     "": {
-      "name": "tdk-erp-system",
+      "name": "flisk-erp-system",
       "devDependencies": {
         "@flisk-sh/flisk": "1.4.5",
       },

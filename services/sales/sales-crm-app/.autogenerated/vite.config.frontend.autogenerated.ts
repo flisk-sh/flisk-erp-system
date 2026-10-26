@@ -56,17 +56,17 @@ export default defineConfig({
     },
     proxy: {
       '': {
-        target: 'http://tdk-erp-system.localhost/api/sales-management',
+        target: 'http://flisk-erp-system.localhost/api/sales-management',
         changeOrigin: true,
         secure: false,
       },
       '/health': {
-        target: 'http://tdk-erp-system.localhost/api/sales-management',
+        target: 'http://flisk-erp-system.localhost/api/sales-management',
         changeOrigin: true,
         secure: false,
       },
       '/trpc': {
-        target: 'http://tdk-erp-system.localhost/api/sales-management',
+        target: 'http://flisk-erp-system.localhost/api/sales-management',
         changeOrigin: true,
         secure: false,
       },
