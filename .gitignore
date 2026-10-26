@@ -1,10 +1,10 @@
 # Dependencies
 node_modules/
 bun.lockb
-.tdk/.tdk-out
+.flisk/.flisk-out/
 # Per-machine identifier used only for the Worker's license project-limit
 # tracking - regenerated automatically if missing, not meant to be shared.
-.tdk/.project-id
+.flisk/.project-id
 # Build outputs
 dist/
 build/
@@ -35,3 +35,4 @@ Thumbs.db
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.flisk/smoke/
