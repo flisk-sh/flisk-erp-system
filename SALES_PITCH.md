@@ -1,8 +1,8 @@
-# TDK Enterprise ERP System - Sales Pitch Deck
+# Flisk Enterprise ERP System - Sales Pitch Deck
 
 ## Executive Summary
 
-The TDK Enterprise ERP System represents a paradigm shift in how modern enterprises approach Resource Planning. By leveraging the TDK **Project-Stack-Resource (PSR)** model, we've demonstrated that 100 microservices across 7 business domains can be orchestrated, deployed, and managed without the traditional complexity that plagues ERP implementations.
+The Flisk Enterprise ERP System represents a paradigm shift in how modern enterprises approach Resource Planning. By leveraging the Flisk **Project-Stack-Resource (PSR)** model, we've demonstrated that 100 microservices across 7 business domains can be orchestrated, deployed, and managed without the traditional complexity that plagues ERP implementations.
 
 ---
 
@@ -23,7 +23,7 @@ The TDK Enterprise ERP System represents a paradigm shift in how modern enterpri
 
 ---
 
-## The Solution: TDK Enterprise ERP
+## The Solution: Flisk Enterprise ERP
 
 ### Core Value Propositions
 
@@ -35,8 +35,8 @@ The TDK Enterprise ERP System represents a paradigm shift in how modern enterpri
 
 #### 2. Developer Experience
 - **Declarative Configuration:** Simple `service.json` manifests define infrastructure
-- **Auto-Generation:** TDK CLI generates Docker, Tilt, Vite, and environment configurations
-- **Local Development:** Full landscape runs locally with `tdk up`
+- **Auto-Generation:** Flisk CLI generates Docker, Tilt, Vite, and environment configurations
+- **Local Development:** Full landscape runs locally with `flisk up`
 - **Type Safety:** TypeScript across all services, compile-time error detection
 
 #### 3. Operational Excellence
@@ -61,7 +61,7 @@ The TDK Enterprise ERP System represents a paradigm shift in how modern enterpri
 - **Resource:** Individual deployable service (API, frontend, worker)
 
 ### Automation & Tooling
-- **TDK CLI:** One command to generate entire infrastructure
+- **Flisk CLI:** One command to generate entire infrastructure
 - **Tilt Integration:** Live reloading, dependency management, health monitoring
 - **Port Allocation:** Automatic, conflict-free port assignment
 - **Dependency Resolution:** Automatic service discovery and wiring
@@ -202,7 +202,7 @@ The TDK Enterprise ERP System represents a paradigm shift in how modern enterpri
 
 ## Conclusion
 
-The TDK Enterprise ERP System represents the future of enterprise resource planning. By combining microservice architecture, modern development practices, and automated infrastructure generation, we've created a solution that delivers:
+The Flisk Enterprise ERP System represents the future of enterprise resource planning. By combining microservice architecture, modern development practices, and automated infrastructure generation, we've created a solution that delivers:
 
 - **60-80% cost reduction** compared to traditional ERP
 - **5-10x faster time to value** with 3-6 month implementations
@@ -224,5 +224,5 @@ This isn't just an ERP system—it's a platform for business transformation.
 
 ---
 
-*Prepared by TDK Landscape Team*
+*Prepared by Flisk Team*
 *Contact: enterprise@tdk-landscape.org*

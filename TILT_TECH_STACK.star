@@ -1,5 +1,5 @@
 # =============================================================================
-# TILT_TECH_STACK.star - TDK Enterprise ERP System Tech Stack
+# TILT_TECH_STACK.star - Flisk Enterprise ERP System Tech Stack
 # =============================================================================
 
 TECH_STACK = {

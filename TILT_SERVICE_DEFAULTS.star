@@ -1,5 +1,5 @@
 # =============================================================================
-# TILT_SERVICE_DEFAULTS.star - TDK Enterprise ERP System Defaults
+# TILT_SERVICE_DEFAULTS.star - Flisk Enterprise ERP System Defaults
 # =============================================================================
 
 BASE_PORT_FRONTEND = 3000

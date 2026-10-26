@@ -27,7 +27,7 @@
 
   <!-- Title -->
   <text x="600" y="40" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" font-weight="bold" fill="#1e293b">
-    TDK Generation Flow
+    Flisk Generation Flow
   </text>
   <text x="600" y="65" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#64748b">
     From service.json to running enterprise landscape
@@ -49,10 +49,10 @@
   </g>
 
   <g transform="translate(340, 100)">
-    <!-- Step 2: tdk up -->
+    <!-- Step 2: flisk up -->
     <rect x="0" y="0" width="200" height="120" rx="12" fill="url(#step2)" opacity="0.9"/>
     <text x="100" y="30" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="bold" fill="white">2. Generate</text>
-    <text x="100" y="55" text-anchor="middle" font-family="monospace" font-size="12" fill="white">tdk up</text>
+    <text x="100" y="55" text-anchor="middle" font-family="monospace" font-size="12" fill="white">flisk up</text>
     <text x="100" y="80" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="white" opacity="0.9">Auto-discovery</text>
     <text x="100" y="100" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="white" opacity="0.9">Port allocation</text>
   </g>
@@ -98,6 +98,6 @@
 
   <!-- Key Point -->
   <text x="600" y="280" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#64748b" font-style="italic">
-    Edit service.json → TDK regenerates → No manual infrastructure code
+    Edit service.json → Flisk regenerates → No manual infrastructure code
   </text>
 </svg>

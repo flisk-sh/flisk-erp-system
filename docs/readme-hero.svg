@@ -23,7 +23,7 @@
 
   <!-- Title -->
   <text x="600" y="80" text-anchor="middle" font-family="system-ui, sans-serif" font-size="48" font-weight="bold" fill="white">
-    TDK Enterprise ERP System
+    Flisk Enterprise ERP System
   </text>
   <text x="600" y="120" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="white" opacity="0.9">
     100 Microservices Across 7 Business Domains
@@ -94,6 +94,6 @@
 
   <!-- Footer stats -->
   <text x="600" y="390" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="white" opacity="0.7">
-    Declare service.json → tdk up → Enterprise ERP Landscape
+    Declare service.json → flisk up → Enterprise ERP Landscape
   </text>
 </svg>

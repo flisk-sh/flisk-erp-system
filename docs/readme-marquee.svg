@@ -23,9 +23,9 @@
   </g>
 
   <g transform="translate(220, 40)">
-    <!-- tdk up -->
+    <!-- flisk up -->
     <rect x="0" y="0" width="80" height="40" rx="4" fill="white" opacity="0.2"/>
-    <text x="40" y="25" text-anchor="middle" font-family="monospace" font-size="14" fill="white">tdk up</text>
+    <text x="40" y="25" text-anchor="middle" font-family="monospace" font-size="14" fill="white">flisk up</text>
   </g>
 
   <g transform="translate(320, 40)">

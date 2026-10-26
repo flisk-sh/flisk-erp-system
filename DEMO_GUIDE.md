@@ -1,8 +1,8 @@
-# TDK Enterprise ERP System - Demo Walkthrough Guide
+# Flisk Enterprise ERP System - Demo Walkthrough Guide
 
 ## Overview
 
-This guide provides a step-by-step playbook for demonstrating the TDK Enterprise ERP System. The demo is designed to be completed in 3-5 minutes and showcases how 100 microservices can be orchestrated without manual configuration.
+This guide provides a step-by-step playbook for demonstrating the Flisk Enterprise ERP System. The demo is designed to be completed in 3-5 minutes and showcases how 100 microservices can be orchestrated without manual configuration.
 
 ---
 
@@ -20,8 +20,8 @@ tilt version
 # Check Bun is installed
 bun --version
 
-# Check TDK CLI is available
-tdk --version
+# Check Flisk CLI is available
+flisk --version
 ```
 
 If any prerequisite is missing, pause and install it before proceeding.
@@ -41,7 +41,7 @@ If any prerequisite is missing, pause and install it before proceeding.
 
 **Key Points:**
 - Each service has a simple `service.json` manifest
-- TDK CLI generates all infrastructure automatically
+- Flisk CLI generates all infrastructure automatically
 - No manual Docker, Kubernetes, or environment configuration needed
 
 ---
@@ -73,12 +73,12 @@ cat services/finance/finance-dashboard-app/service.json
 
 ### Part 3: Landscape Discovery (30 seconds)
 
-**Narrative:** "TDK CLI automatically discovers all services, resolves dependencies, and allocates ports. Let's see what it finds."
+**Narrative:** "Flisk CLI automatically discovers all services, resolves dependencies, and allocates ports. Let's see what it finds."
 
 **Actions:**
 ```bash
 # Show the landscape discovery
-tdk status
+flisk status
 ```
 
 **Key Points:**
@@ -96,7 +96,7 @@ tdk status
 **Actions:**
 ```bash
 # Start the finance domain
-tdk up finance
+flisk up finance
 
 # Watch Tilt start the services
 # (Show the Tilt UI opening automatically)
@@ -119,8 +119,8 @@ tdk up finance
 **Actions:**
 ```bash
 # Start additional domains in separate terminals
-# Terminal 2: tdk up hr
-# Terminal 3: tdk up sales
+# Terminal 2: flisk up hr
+# Terminal 3: flisk up sales
 ```
 
 **Key Points:**
@@ -139,7 +139,7 @@ tdk up finance
 ```bash
 # Stop individual domains (Ctrl+C in terminals)
 # Deploy everything
-tdk up
+flisk up
 ```
 
 **Key Points:**
@@ -181,7 +181,7 @@ curl http://localhost:4300/health
 
 ### Part 8: Architecture Exploration (30 seconds)
 
-**Narrative:** "Let's look at what TDK generated for us. All the infrastructure files were created automatically."
+**Narrative:** "Let's look at what Flisk generated for us. All the infrastructure files were created automatically."
 
 **Actions:**
 ```bash
@@ -231,7 +231,7 @@ curl http://localhost:4200/health
 **Actions:**
 ```bash
 # Stop all services
-tdk down
+flisk down
 
 # Verify cleanup
 docker ps
@@ -264,7 +264,7 @@ docker ps
 ### For Developers/Engineers
 **Focus:** Tooling, DX, automation
 - Show service.json simplicity
-- Demonstrate TDK CLI capabilities
+- Demonstrate Flisk CLI capabilities
 - Highlight TypeScript benefits
 - Discuss testing and debugging
 
@@ -295,7 +295,7 @@ docker ps
 **A:** "Absolutely. The service.json manifests are completely customizable. You can add, remove, or modify services based on your specific needs. The architecture is designed for extensibility."
 
 ### Q: What's the learning curve for our team?
-**A:** "Since we use standard JavaScript/TypeScript, React, and modern tooling, most developers are already familiar. The TDK CLI handles the complex infrastructure parts, so your team focuses on business logic."
+**A:** "Since we use standard JavaScript/TypeScript, React, and modern tooling, most developers are already familiar. The Flisk CLI handles the complex infrastructure parts, so your team focuses on business logic."
 
 ---
 
@@ -325,15 +325,15 @@ docker ps
 
 ### Port Conflicts
 **Issue:** Services fail to start due to port conflicts
-**Solution:** Check `tdk status` for port allocation, modify `TILT_SERVICE_DEFAULTS.star` if needed
+**Solution:** Check `flisk status` for port allocation, modify `TILT_SERVICE_DEFAULTS.star` if needed
 
 ### Docker Issues
 **Issue:** Docker daemon not running or permissions issues
 **Solution:** Start Docker daemon, ensure user has Docker permissions
 
-### TDK CLI Not Found
-**Issue:** `tdk` command not available
-**Solution:** Install TDK CLI per documentation at https://github.com/flisk-sh/flisk
+### Flisk CLI Not Found
+**Issue:** `flisk` command not available
+**Solution:** Install Flisk CLI per documentation at https://github.com/flisk-sh/flisk
 
 ### Services Not Starting
 **Issue:** Services remain in red/yellow state in Tilt UI
@@ -371,7 +371,7 @@ cat > services/finance/custom-reporting-api/service.json << EOF
 }
 EOF
 
-# Restart TDK to pick up new service
+# Restart Flisk to pick up new service
 # (Tilt automatically detects and starts new service)
 ```
 
@@ -404,7 +404,7 @@ curl http://localhost:4010/health/ready
 
 ## Conclusion
 
-This demo script showcases the key differentiators of the TDK Enterprise ERP System:
+This demo script showcases the key differentiators of the Flisk Enterprise ERP System:
 
 1. **Simplicity:** Declarative configuration replaces complex infrastructure
 2. **Speed:** 100 services deployed in minutes, not months
@@ -418,11 +418,11 @@ The demo is designed to be technically impressive while remaining accessible to 
 
 ## Additional Resources
 
-- **Full Documentation:** https://github.com/flisk-sh/tdk-erp-system
-- **TDK CLI:** https://github.com/flisk-sh/flisk
+- **Full Documentation:** https://github.com/flisk-sh/flisk-erp-system
+- **Flisk CLI:** https://github.com/flisk-sh/flisk
 - **Sales Pitch:** See SALES_PITCH.md for executive presentation
 - **Technical Architecture:** Contact for deep-dive technical session
 
 ---
 
-*Demo Guide v1.0 - TDK Landscape Team*
+*Demo Guide v1.0 - Flisk Team*

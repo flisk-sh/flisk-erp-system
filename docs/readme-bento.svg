@@ -147,6 +147,6 @@
 
   <!-- Footer -->
   <text x="600" y="550" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#64748b">
-    Each domain can be deployed independently: tdk up finance, tdk up hr, tdk up inventory, etc.
+    Each domain can be deployed independently: flisk up finance, flisk up hr, flisk up inventory, etc.
   </text>
 </svg>
