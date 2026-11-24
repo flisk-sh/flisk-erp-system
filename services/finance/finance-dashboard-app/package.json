@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "vite build",
     "typecheck": "tsc --noEmit",
-    "start": "bun run dist/index.js"
+    "start": "vite preview"
   },
   "dependencies": {
     "react": "^18.2.0",
